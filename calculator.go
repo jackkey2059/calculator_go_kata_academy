@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-// Каулятор для счета арабских цифр
+// Калькулятор для счета арабских цифр
 func calc_arab(a int, b string, c int) string {
 	if a > 10 || c > 10 {
 		return "Значение чисел больше 10"
